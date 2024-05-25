@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnIncrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment"
+        android:layout_below="@id/tvCount"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnDecrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrement"
+        android:layout_below="@id/btnIncrement"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/btnDecrement"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
